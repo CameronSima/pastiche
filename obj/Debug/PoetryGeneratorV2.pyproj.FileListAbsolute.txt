@@ -1,0 +1,13 @@
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\obj\Debug\attach_server.py
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\obj\Debug\visualstudio_py_debugger.py
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\obj\Debug\visualstudio_py_repl.py
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\obj\Debug\visualstudio_py_util.py
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\obj\Debug\__init__.py
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\obj\Debug\__main__.py
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\bin\AzureSetup.cfg
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\bin\wfastcgi.py
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\obj\Debug\web.config
+C:\Users\cjsim\onedrive\documents\visual studio 2015\Projects\PoetryGeneratorV2\PoetryGeneratorV2\obj\Debug\web.debug.config
