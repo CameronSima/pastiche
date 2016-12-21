@@ -10,7 +10,9 @@ import utilities
 import markovGen
 import vote
 
-@route('/')
+URL_PREFIX = '/pastiche'
+
+@route(URL_PREFIX + '/')
 @route('/home')
 @view('index')
 def home():
@@ -21,7 +23,7 @@ def home():
     )
 
 
-@route('/', method='POST')
+@route(URL_PREFIX + '/', method='POST')
 def getUserChoice():
     user_selection = utilities.parse_data(request.body.read())
     result = markovGen.write(user_selection)
@@ -33,7 +35,7 @@ def getUserChoice():
 
     return redirect('/poem/' + result['id'])
 
-@route('/poems')
+@route(URL_PREFIX + '/poems')
 @view('poems')
 def display_poems():
     return dict(
@@ -41,7 +43,7 @@ def display_poems():
         year=datetime.now().year
     )
 
-@route('/poem/<id>')
+@route(URL_PREFIX + '/poem/<id>')
 @view('poem')
 def poem(id):
     return dict(
@@ -49,7 +51,7 @@ def poem(id):
         year=datetime.now().year
     )
     
-@route('/contact')
+@route(URL_PREFIX + '/contact')
 @view('contact')
 def contact():
     """Renders the contact page."""
@@ -59,7 +61,7 @@ def contact():
         year=datetime.now().year
     )
 
-@route('/about')
+@route(URL_PREFIX + '/about')
 @view('about')
 def about():
     """Renders the about page."""
@@ -69,7 +71,7 @@ def about():
         year=datetime.now().year
     )
 
-@route('/vote/<id>/<vote_dir>', method='PUT')
+@route(URL_PREFIX + '/vote/<id>/<vote_dir>', method='PUT')
 def vote_handler(id, vote_dir):
     v = vote.Vote(id, vote_dir)
     v.increment_vote()
