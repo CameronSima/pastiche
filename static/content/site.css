@@ -1,8 +1,4 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-family: Open Sans;
-}
+﻿
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -40,11 +36,6 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
-}
-
-.navbar-brand {
-    font-family: 'Edwardian Script ITC';
-    font-size: 45px;
 }
 
 .lead {
